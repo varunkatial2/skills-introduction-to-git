@@ -1,0 +1,20 @@
+New IP address after Upgrade	1st set of components	2nd set of components	Release 12.4.1.14 / 12.4.1.18 - LTE PRGW (PLP)  will support both the vendor types (Keysight and LTE PW Probe)	VM's needed for Release 10.6.1.2 testing (RHEL OS version reverted to  --> 7.2 (Maipo)	Fresh Installation of Release 12.4.1.21  till 12.4.1.24 -  (RHEL OS version  --> 8.6 (Ootpa)	Release 12.4.0.0	Fresh Installation of Release 12.4.1.25 / 12.4.1.27 -  (RHEL OS version  --> 8.6 (Ootpa)
+10.44.102.1 Varun							
+10.44.110.125	OLGW + 3SGW + LCSI + AppServer +  SIGTRANstack	OLGW + 3SGW + LCSI + AppServer +  SIGTRANstack	OLGW + 3SGW + LCSI + AppServer +  SIGTRANstack		OLGW + 3SGW + LCSI + AppServer +  SIGTRANstack		OLGW + 3SGW + LCSI + AppServer +  SIGTRANstack
+10.44.110.126	LRDA	CH	CH	CH + MA + MSP	RHEL OS version reverted to  --> 7.2 (Maipo)		RHEL OS version 7.2 (Maipo)
+10.44.110.127	GSM SGW	MA	MA		CH + MA + MSP		CH + MA + MSP
+10.44.110.128	GSM LES1	MSP	MSP		STS		STS
+10.44.110.129	GSM LE2	PUG-GSM (CS)	PUG-GSM (CS)		SSH-1		SSH
+10.44.110.130	PRA - GSM	PUG-GSM (PS)	PUG-GSM (PS)		SSH-2		PRA - LTE
+10.44.110.132	UMTS SGW	STS	STS	STS	RHEL OS version reverted to  --> 7.2 (Maipo)		RHEL OS version 7.2 (Maipo)
+10.44.110.133	UMTS LES1	SSH	SSH	SSH-1	RHEL OS version reverted to  --> 7.2 (Maipo)		RHEL OS version 7.2 (Maipo)
+10.44.110.134	UMTS LE2 	PUG-UMTS (CS)	PUG-UMTS (CS)	SSH-2	RHEL OS version reverted to  --> 7.2 (Maipo)		RHEL OS version 7.2 (Maipo)
+10.44.110.135	PRA - UMTS	PUG-UMTS (PS)	PUG-UMTS (PS)	WLDM (still in 10.6.1.1)	RHEL OS version reverted to  --> 7.2 (Maipo)		RHEL OS version 7.2 (Maipo)
+10.44.110.139	LRDB	LTE PRGW (PLP)	LTE PRGW (PLP)		LTE PRGW (PLP)	T-SMLC 	LTE PRGW (PLP)
+10.44.110.140	LTE SGW	CN PRGW	CN PRGW	OAM R10.6.0.2	RHEL OS version reverted to  --> 7.2 (Maipo)		LRD-B
+10.44.110.141	LTE LES1	PLL	PLL		PLL		PLL
+10.44.110.142	LTE LE2 	PUL	PUL		WLDM		WLDM
+10.44.110.143	PRA - LTE	PGL	PGL		PGL	E-SMLC-1	LES - LTE
+10.44.110.145	AGPS Server	LTE PRGW PW	GSM  PROBE		GSM  PROBE	E-SMLC-2	GSM  PROBE + 12.6OAM
+10.44.110.146		LTE Probe 	LTE Probe 		LTE Probe 	OAM-12.4.0.0	LTE Probe 
+10.44.110.152	OAM	OAM	OAM		OAM not installed , but kept for OAM		Suhas is using this VM for Proxmos 
